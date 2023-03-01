@@ -47,7 +47,27 @@ footer {
     padding-top: 8%;
 }
 @media only screen and (max-width: 600px) {
-    flex-direction: column;
-    width: 100%;
-    grid-template-columns: 80% 20%;
+    .workGrid {
+        flex-direction: column;
+        width: 100%;
+        grid-template-columns: 80% 20%;
+    }
+    nav {
+        flex-direction: column-reverse;
+    }
+    nav ul {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    nav li {
+        padding: 0% 20px;
+    }
+    .content {
+        justify-content: flex-start;
+    }
+    .heroImg {
+        width: 100%;
+        height: auto;
+    }
 }
