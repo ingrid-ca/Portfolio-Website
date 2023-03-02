@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -15,10 +16,10 @@
    </header>
     <nav>
         <ul>
-            <li>about</li>
-            <li>skills</li>
-            <li>work</li>
-            <li>contact</li>
+            <li><button class="page-scroll" onclick="down1()">about</button></li>
+            <li><button class="page-scroll" onclick="down2()">skills</button></li>
+            <li><button class="page-scroll" onclick="down3()">work</button></li>
+            <li><button class="page-scroll" onclick="down4()">contact</button></li>
         </ul>
         <div class="content">
             <div class="contentText">
@@ -29,12 +30,12 @@
             <img src="./images/facing forward 1.png" class="heroImg">
         </div>
     </nav>
-    <section class="about">
+    <section class="about" id="about">
         <h1>about</h1>
         <p>specializing in user interface design creating and/or redesigning websites to perfectly fit the client's aesthetic.</p>
         <p>Ingrid enjoys organizing websites coherently so that clutter is minimized and navigation is simple, solving user navigation problems by thinking and planning strategically with a keen sense of aesthetics and style.</p>
     </section>
-    <section class="mySkills">
+    <section class="skills" id="skills">
         <h1>skills</h1>
         <div class="workGrid">
             <ul>
@@ -58,7 +59,7 @@
             </div>
         </div>
     </section>
-    <section class="myWork">
+    <section class="work" id="work">
         <h1>work</h1>
         <div class="workGrid">
 
@@ -69,7 +70,7 @@
             <img src="./images/Screenshot_20230201_094229.png">
         </div>
     </section>
-    <section>
+    <section class="contact" id="contact">
         <h1>contact</h1>
         <p>ingridandersen329@gmail.com</p>
         <p>9522195798</p>
@@ -78,5 +79,6 @@
     <footer>
         <p>copyright 2023 ingrid andersen</p>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>

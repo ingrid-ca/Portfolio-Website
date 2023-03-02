@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 5%;
 }
@@ -6,6 +9,9 @@ body {
 }
 nav {
     display: flex;
+}
+button:hover {
+    background-color: blueviolet;
 }
 nav li {
     list-style: none;
