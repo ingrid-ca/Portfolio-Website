@@ -7,11 +7,17 @@ body {
 .logo {
     width: 23%;
 }
+p {
+    font-family: "JetBrains Mono", monospace;
+}
+h1 {
+    font-family: "JetBrains Mono" monospace;
+}
 nav {
     display: flex;
 }
-button:hover {
-    background-color: blueviolet;
+a:hover {
+    color: blueviolet;
 }
 nav li {
     list-style: none;
