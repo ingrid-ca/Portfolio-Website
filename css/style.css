@@ -3,6 +3,7 @@ html {
 }
 body {
     margin: 5%;
+    font-family: "JetBrains Mono", monospace;
 }
 .logo {
     width: 23%;
@@ -51,9 +52,6 @@ button {
 .workGrid img {
     width: 100%;
     height: auto;
-}
-.skills {
-    font-family: "JetBrains Mono" monospace;
 }
 footer {
     padding-top: 8%;
