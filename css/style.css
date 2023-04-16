@@ -10,6 +10,7 @@ body {
 }
 p {
     font-family: "JetBrains Mono", monospace;
+    font-size: larger;
 }
 nav {
     display: flex;
@@ -57,6 +58,51 @@ button {
 }
 footer {
     padding-top: 8%;
+}
+.mainImg {
+    width: 300px;
+    height: auto;
+    float: right;
+    margin-top: auto;
+    padding-top: 4%;
+}
+h1 {
+    display: inline-block;
+    padding-inline-start: 5%;
+}
+.research img {
+    width: 500px;
+    height: auto;
+}
+.synthesis img {
+    width: 500px;
+    height: auto;
+}
+.ideation img {
+    width: 500px;
+    height: auto;
+}
+.wireframing img {
+    width: 500px;
+    height: auto;
+}
+.prototyping img {
+    width: 500px;
+    height: auto;
+}
+.testing img {
+    width: 500px;
+    height: auto; 
+}
+.iterations img {
+    width: 500px;
+    height: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 @media only screen and (max-width: 600px) {
     .workGrid {
