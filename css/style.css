@@ -1,46 +1,59 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     margin: 5%;
     font-family: "JetBrains Mono", monospace;
 }
+
 .logo {
     width: 23%;
 }
+
 p {
     font-family: "JetBrains Mono", monospace;
     font-size: larger;
 }
+
 nav {
     display: flex;
+}
+a {
+    font-size: larger;
 }
 a:hover {
     color: blueviolet;
 }
+
 nav li {
     list-style: none;
     padding-top: 20%;
 }
+
 nav ul {
     margin-block-start: 0em !important;
     padding-inline-start: 0px !important;
     padding-top: 3%;
 }
+
 button {
     padding-right: 5%;
 }
+
 .heroImg {
     height: auto;
     width: 40%;
     padding-left: 1%;
     object-fit: contain;
 }
+
 .content {
     display: flex;
     justify-content: flex-end;
     width: 100%;
 }
+
 .contentText {
     display: flex;
     flex-direction: column;
@@ -48,90 +61,133 @@ button {
     width: 20%;
     text-align: right;
 }
+
 .workGrid {
     display: grid;
     grid-template-columns: 80% 20%;
 }
+
 .workGrid img {
     width: 100%;
     height: auto;
 }
+ul2 {
+    font-size: larger;
+}
+
 footer {
     padding-top: 8%;
 }
+
 .mainImg {
     width: 300px;
     height: auto;
     float: right;
     margin-top: auto;
     padding-top: 4%;
+    padding-left: 5%;
 }
+
 h1 {
     display: inline-block;
     padding-inline-start: 5%;
 }
+
+.introSummary {
+    padding-bottom: 2%;
+}
+
 .research img {
     width: 500px;
     height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
+
 .synthesis img {
     width: 500px;
     height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
+
 .ideation img {
     width: 500px;
     height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
+
 .wireframing img {
     width: 500px;
     height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
+
 .prototyping img {
     width: 500px;
     height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
+
 .testing img {
     width: 500px;
-    height: auto; 
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
+
 .iterations img {
     width: 500px;
     height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
+
 @media only screen and (max-width: 600px) {
     .workGrid {
         flex-direction: column;
         width: 100%;
         grid-template-columns: 80% 20%;
     }
+
     nav {
         flex-direction: column-reverse;
     }
+
     nav ul {
         display: flex;
         width: 100%;
         justify-content: flex-end;
     }
+
     nav li {
         padding: 0% 20px;
     }
+
     .content {
         justify-content: flex-start;
     }
+
     .heroImg {
         width: 70%;
         height: auto;
     }
+
     .contentText {
         width: 25%;
     }
 }
+
 @media only screen and (max-width: 960px) and (min-width: 600px) {
     .heroImg {
         width: 60%;
