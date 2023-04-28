@@ -87,7 +87,11 @@ footer {
     padding-top: 4%;
     padding-left: 5%;
 }
-
+.introImg {
+   width: 500px;
+   height: auto;
+   align-items: center;
+}
 h1 {
     display: inline-block;
     padding-inline-start: 5%;
